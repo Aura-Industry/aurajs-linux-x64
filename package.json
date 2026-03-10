@@ -1,0 +1,31 @@
+{
+  "name": "@aurajs/linux-x64",
+  "version": "0.1.1",
+  "description": "AuraJS native host binary package for linux-x64",
+  "license": "MIT",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/**",
+    "index.js",
+    "README.md"
+  ],
+  "aurajsHost": {
+    "binaryPath": "bin/aurajs-host",
+    "checksumAlgorithm": "sha256",
+    "checksum": "157160dd34fe9439d6d8000d6910d6ad1d761b92e6989ca7b754716196e0fac3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
